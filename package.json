@@ -1,0 +1,32 @@
+{
+  "name": "summus-cli",
+  "version": "0.0.4",
+  "description": "<!--\r  * @Description: In User Settings Edit\r  * @Author: your name\r  * @Date: 2019-09-06 17:12:37\r  * @LastEditTime: 2019-09-06 17:15:30\r  * @LastEditors: Please set LastEditors\r  -->\r # my-cli\r ss脚手架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "summus-cli": "main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Summuss/my-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Summuss/my-cli/issues"
+  },
+  "homepage": "https://github.com/Summuss/my-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^3.0.1",
+    "download-git-repo": "^2.0.0",
+    "handlebars": "^4.2.0",
+    "inquirer": "^7.0.0",
+    "log-symbols": "^3.0.0",
+    "ora": "^3.4.0"
+  }
+}
