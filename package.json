@@ -1,6 +1,6 @@
 {
   "name": "summus-cli",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "<!--\r  * @Description: In User Settings Edit\r  * @Author: your name\r  * @Date: 2019-09-06 17:12:37\r  * @LastEditTime: 2019-09-06 17:15:30\r  * @LastEditors: Please set LastEditors\r  -->\r # my-cli\r ss脚手架",
   "main": "index.js",
   "scripts": {

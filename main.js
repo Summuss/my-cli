@@ -16,7 +16,7 @@ const chalk = require('chalk');
 const logsymbos = require('log-symbols');
 const shell = require('shelljs');
 
-program.version('0.0.4');
+program.version('0.0.5');
 
 const templates = {
     'cpp-windows': {
@@ -84,7 +84,7 @@ program
                     {
                         let filler = { 'projectName': projectName };
                         const cmakeLists_filePath = `${projectName}/config/CMakeLists.txt`;
-                        const build_filepath = `${projectName}/config/build.bat`;;
+                        const build_filepath = `${projectName}/config/build.sh`;;
                         const cmakeLists_content = fs.readFileSync(cmakeLists_filePath, 'utf8')
                         const build_content = fs.readFileSync(build_filepath, "utf8");
                         const cmakeList_result = handlebars.compile(cmakeLists_content)(filler);
